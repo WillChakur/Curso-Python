@@ -1,0 +1,15 @@
+Por enquanto já consegui aprender vários fundamentos da linguagem Python, nela temos alguns tipos de estruturas de dados
+como os dicionários, conjuntos(set), listas e tuplas.
+
+Dicionários: Nessa estrutura de dados nós temos um valor associada a uma chave.
+Conjuntos: Os conjuntos são estruturas não indexadas e que não aceitam repetições de valores, nele podemos fazer várias
+operações entre conjuntos.
+tuplas: As tuplas são estruturas indexadas, porém diferente das listas não podemos fazer modificações em seus valores.
+listas: Provavelmente a estrutura mais importante, nela temos um sistema de indexação o que permite uma navegação simples
+entre seus componentes.
+
+Aprendi também sobre estruturas de controles, como por exemplo: for, while, switch(improvisado com dicionário), if e else.
+
+Atualmente estou estudando sobre manipulação de arquivos, que é indispensável para o gerenciamente de dados e projetos.
+
+________________________________________________________________________________________________________________________

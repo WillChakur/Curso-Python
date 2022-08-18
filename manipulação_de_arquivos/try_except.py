@@ -7,11 +7,20 @@ Vamos usar quando prevemos que algum erro pode ocorrer, então mandamos uma mens
 
 #Vamos tratar o erro de divisão por zero
 #O programa vai tentar rodar o try, caso não consiga vai rodar o except, bem parecido com if e else
-try:
-    print(5/0)
-except ZeroDivisionError:
-    print('Você não pode dividir por zero')
+print("Insira 'q' para sair.")
 
-print('Executando após a falha!!')
+while True:
+    primeiro_valor = input('Informe o primeiro valor: ')
+    if primeiro_valor == 'q':
+        break
+    segundo_valor = input('Informe o segundo valor: ')
+
+    try:
+        resultado = int(primeiro_valor) / int(segundo_valor)
+    except ZeroDivisionError:
+        print('Você não pode dividir por zero')
+    else:
+        print(f'O resultado da divisão foi: {resultado}')
 
 #Com esse bloco nós podemos continuar executando após a falha, então não temos uma pausa do algoritmo
+#Sabendo disso é essencial colocar qualquer comando que dependa do resultado do bloco try em uma bloco else
